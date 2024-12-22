@@ -6,5 +6,7 @@ statesOfAmerica = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Connect
                    "New Mexico", "Arizona", "Alaska", "Hawaii"]
 
 statesOfAmerica[1] = "pencil"
+statesOfAmerica.append("JuansState")
+statesOfAmerica.extend(["yeehaw Land", "GiddyUp Land", "Porsche Land", "GT3 RS Land"])
 
 print(statesOfAmerica)
